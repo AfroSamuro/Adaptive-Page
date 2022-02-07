@@ -1,0 +1,56 @@
+.program-course {
+   width: 1270px;
+}
+
+.program-course__programs {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.program-course__program {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 37px;
+    margin-bottom: 41px;
+}
+
+.program-course__program:nth-last-of-type(3), .program-course__program:nth-last-of-type(6){
+margin-right: 0;
+}
+
+
+.program-course__img {
+    width: 100%;
+}
+
+.authors{
+    width: 1056px;
+    margin: 0 auto;
+}
+
+.program-course__title {
+    font-size: 30px;
+    margin-bottom: 32px;
+    padding-left: 20px;
+}
+
+
+
+.program-course__timetable {
+    font-size: 25px;
+    padding-left: 19px;
+    padding-bottom: 23px;
+}
+
+.program-course__black-line-separator {
+display: flex;
+justify-content: space-between;
+margin-bottom: 103px;
+}
+
+.authors__title{
+    margin-top: 300px;
+}
