@@ -2,6 +2,7 @@
 @import "./preview.css";
 @import "./header.css";
 @import "./preview.css";
+@import "./preview_next.css";
 
 * {
     margin: 0;

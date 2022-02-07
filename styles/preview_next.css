@@ -1,0 +1,75 @@
+.format {
+    margin-top: 160px;
+}
+
+.format__list {
+    list-style-type: none;
+}
+
+.format__info-paragraph {
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+}
+
+.format__box {
+    margin-top: 124px;
+}
+
+.format__list {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    height: 140px;
+}
+
+.format__info {
+    width: 300px;
+    height: 50px;
+    display: block;
+}
+
+.format__info-text {
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.learn {
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn__list {
+    padding-top: 56px;
+    padding-left: 15px;
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+}
+
+.learn__list-item {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.learn__img {
+    display: block;
+    padding-left: 100px;
+    position: relative;
+}
+
+.learn__img-people {
+    padding-bottom: 110px;
+    position: relative;
+    bottom: 64px;
+    right: 20px;
+}
+
+.learn__img-dinozavr {
+    position: relative;
+    bottom: 12px;
+    right: 34px;
+}
