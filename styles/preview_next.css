@@ -37,9 +37,10 @@
 }
 
 .learn {
-    margin-top: 190px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     padding-bottom: 200px;
 }
 
@@ -58,19 +59,23 @@
 
 .learn__img {
     display: block;
-    padding-left: 100px;
-    position: relative;
+    height: 500px;
+    /* padding: 60px; */
+    /* padding-left: 68px; */
+    /* position: relative; */
 }
 
 .learn__img-people {
-    padding-bottom: 110px;
-    position: relative;
+    display: block;
+    padding-bottom: 150px;
+    /* position: relative; */
     bottom: 64px;
     right: 20px;
 }
 
 .learn__img-dinozavr {
-    position: relative;
+    display: block;
+    /* position: relative; */
     bottom: 12px;
-    right: 34px;
+    padding-right: 50px;
 }
