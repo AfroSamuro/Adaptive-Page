@@ -26,13 +26,81 @@
 
 .format__info {
     width: 300px;
-    height: 50px;
-    display: block;
+    /* height: 50px; */
+    /* display: block; */
 }
 
 .format__info-text {
     display: block;
-    width: 300px;
-    height: 100px;
+    /* width: 300px;
+    height: 100px; */
     /* padding-top: 20px; */
+}
+
+@media screen and (max-width: 1280px) {
+    .format {
+        padding-top: 82px;
+    }
+
+    .format__list {
+        padding-right: 110px;
+
+    }
+
+    .format__info {
+        width: 160px;
+
+    }
+
+    .format__info-paragraph {
+        font-size: 15px;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    .format__info-text {
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .format__box {
+        margin-top: 76px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .format {
+        padding-top: 20px;
+    }
+
+    .format__info-paragraph {
+        font-size: 12px;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    .format__info-text {
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .format__list {
+        display: block;
+    }
+
+    .format__box {
+        margin-top: 36px;
+    }
+
+    .format__info-paragraph {
+        margin-top: 34px;
+    }
+
+    .format__info {
+        width: 170px;
+    }
+
+    .format__info-one {
+        width: 170px;
+    }
 }
