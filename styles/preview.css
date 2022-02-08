@@ -12,6 +12,7 @@
 .preview__img {
     width: 22px;
     height: 22px;
+    margin-right: 4px;
 }
 
 .preview {
@@ -37,14 +38,36 @@
     padding-top: 35px;
 }
 
-.preview__paragraph-img {
+.preview__quote {
+    width: 496.41px;
+    height: 233.25px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+}
+
+.preview__quote-text {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 130%;
+    padding: 25px 25px;
+}
+
+.preview__quote-author {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* .preview__paragraph-img {
     width: 640px;
     padding-left: 170px;
-    /* position: relative; */
+    position: relative;
     padding-bottom: 46px;
     padding-right: 96px;
     display: block;
-}
+} */
 
 .preview__paragraph-img2 {
     margin: auto;
