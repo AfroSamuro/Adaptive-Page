@@ -16,12 +16,12 @@
 
 .preview {
     padding-top: 92px;
-    position: relative;
+    /* position: relative; */
 }
 
 .preview__paragraph {
     display: flex;
-    position: relative;
+    height: 400px;
 }
 
 .paragraph {
@@ -38,10 +38,12 @@
 }
 
 .preview__paragraph-img {
+    width: 640px;
     padding-left: 170px;
-    position: relative;
-    bottom: 8px;
-    right: 2px;
+    /* position: relative; */
+    padding-bottom: 46px;
+    padding-right: 96px;
+    display: block;
 }
 
 .preview__paragraph-img2 {
@@ -49,15 +51,17 @@
     display: block;
     width: 496px;
     height: 234px;
-    position: relative;
-    right: 66px;
+    /* position: relative; */
+    /* padding-right: 66px; */
     top: 44px;
+    margin-top: 20px;
+    margin-right: 420px;
 }
 
 
 
 .well {
-    margin-top: 200px;
+    margin-top: 156px;
 }
 
 .info_text {
@@ -91,10 +95,7 @@
     align-items: center;
     padding-right: 188px;
 }
-.img_cam {
-    position: relative;
-    top: 8px;
-}
+
 
 .list_item {
     list-style-type: none;
@@ -125,8 +126,8 @@
 
 @media screen and (max-width: 1280px) {
     .content {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 100%;
     }
     
