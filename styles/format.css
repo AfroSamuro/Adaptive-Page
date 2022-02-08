@@ -1,0 +1,38 @@
+.format {
+    padding-top: 154px;
+}
+
+.format__list {
+    list-style-type: none;
+}
+
+.format__info-paragraph {
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+    margin-bottom: 8px;
+}
+
+.format__box {
+    margin-top: 124px;
+}
+
+.format__list {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    height: 140px;
+}
+
+.format__info {
+    width: 300px;
+    height: 50px;
+    display: block;
+}
+
+.format__info-text {
+    display: block;
+    width: 300px;
+    height: 100px;
+    /* padding-top: 20px; */
+}
