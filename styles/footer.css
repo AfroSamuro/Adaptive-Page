@@ -1,15 +1,68 @@
-.beginning-container {
-    background-color: #9DC9C8;
+.footer {
+    background-color: black;
 }
 
-.beginning{
+.footprint {
     display: flex;
     flex-direction: column;
-    padding-bottom: 194px;
-    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 98px;
+    color: white;
 }
 
-.beginning__price{
+.footprint__logocontacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 25px;
+    padding-right: 54px;
+}
+
+.logocontacts__contacts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+}
+
+.contacts__phone, .contacts__email {
+    display: flex;
+}
+
+.contacts__phone {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+}
+
+.contacts__email {
+    align-items: center;
+    margin-top: 12px;
+}
+
+.contacts__phone img {
+    height: 24px;
+}
+
+.contacts__email img {
+    height: 18px;
+    margin-right: 20px;
+}
+
+.footprint__socialmedia {
+    margin-top: 17px;
+}
+
+.footprint__socialmedia img:not(:first-child) {
+    margin-left: 14px;
+}
+
+.copyright{
+    font-size: 18px;
+    margin-top: 140px;
+}
+
+/* .footprint__price{
     margin-top: 64px; ;
 }
 
@@ -41,7 +94,7 @@ width: 25%;
 
 .motivation__now{
 margin-left: 5%;
-}
+} */
 
 
 @media screen and (max-width: 1280px) {
@@ -57,41 +110,41 @@ margin-left: 5%;
         font-size: 32px;
     }
 
-    .beginning__price{
+    .beginning__price {
         margin-top: 38px;
 
     }
-    
-    .price__text, .level__any, .now__come{
+
+    .price__text, .level__any, .now__come {
         line-height: 101%;
         font-size: 14px;
     }
-    
-    
-    .price__numbers{
+
+
+    .price__numbers {
         line-height: 101%;
         font-size: 46px;
     }
-    
-    .beginning__motivation{
+
+    .beginning__motivation {
         display: flex;
         margin-top: 46px;
     }
-    
-    .level__text, .now__text{
+
+    .level__text, .now__text {
         font-size: 10px;
         margin-top: 10px;
         line-height: 101%;
     }
-    
-    .motivation__level, .motivation__now{
-    width: 24%;
+
+    .motivation__level, .motivation__now {
+        width: 24%;
     }
-    
-    .motivation__now{
-    margin-left: 6%;
+
+    .motivation__now {
+        margin-left: 6%;
     }
-    
+
 }
 
 @media screen and (max-width: 834px) {
@@ -107,39 +160,40 @@ margin-left: 5%;
         font-size: 26px;
         width: 74%;
     }
-    .beginning__price{
+
+    .beginning__price {
         margin-top: 34px;
-        
+
     }
-    
-    .price__text, .level__any, .now__come{
+
+    .price__text, .level__any, .now__come {
         line-height: 101%;
         font-size: 12px;
     }
-    
-    
-    .price__numbers{
+
+
+    .price__numbers {
         line-height: 101%;
         font-size: 37px;
     }
-    
-    .beginning__motivation{
+
+    .beginning__motivation {
         display: flex;
         margin-top: 36px;
     }
-    
-    .level__text, .now__text{
+
+    .level__text, .now__text {
         font-size: 10px;
         margin-top: 6px;
         line-height: 101%;
     }
-    
-    .motivation__level, .motivation__now{
-    width: 46%;
+
+    .motivation__level, .motivation__now {
+        width: 46%;
     }
-    
-    .motivation__now{
-    margin-left: 9%;
+
+    .motivation__now {
+        margin-left: 9%;
     }
 
 }
