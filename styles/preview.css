@@ -25,22 +25,19 @@
     height: 400px;
 }
 
-.paragraph {
-    width: 600px;
-    height: 190px;
-    display: block;
-}
 
 .paragraph p {
-    width: 414px;
-    height: 62px;
     line-height: 150%;
-    padding-top: 35px;
+    margin-top: 35px;
+    margin-right: 200px;
 }
 
 .preview__quote {
-    width: 496.41px;
-    height: 233.25px;
+    margin-top: 36px;
+    margin-left: 290px;
+    padding: 20px 0px 5px 25px;
+    width: 480px;
+    height: 200px;
     background-color: #1E4681;
     border-radius: 5px;
     transform: rotate(-4deg);
@@ -49,8 +46,7 @@
 .preview__quote-text {
     color: #FFFFFF;
     font-size: 25px;
-    line-height: 130%;
-    padding: 25px 25px;
+    line-height: 130%;    
 }
 
 .preview__quote-author {
@@ -58,41 +54,24 @@
     line-height: 130%;
     text-align: right;
     color: #FFFFFF;
+    margin-right: 25px;
 }
 
-/* .preview__paragraph-img {
-    width: 640px;
-    padding-left: 170px;
-    position: relative;
-    padding-bottom: 46px;
-    padding-right: 96px;
-    display: block;
-} */
-
-.preview__paragraph-img2 {
-    margin: auto;
-    display: block;
-    width: 496px;
-    height: 234px;
-    /* position: relative; */
-    /* padding-right: 66px; */
-    top: 44px;
-    margin-top: 20px;
-    margin-right: 420px;
+.preview__paragraph-img {
+    margin-left: 170px;
+    margin-bottom: 46px;
+    margin-right: 120px;
 }
-
-
 
 .well {
-    margin-top: 156px;
+    margin-top: 172px;
 }
 
 .info_text {
     font-size: 24px;
     line-height: 150%;
-    padding-right: 18px;
-    width: 680px;
-    height: 374px;
+    margin-right: 164px;
+    width: 60%;
 }
 .info {
     margin: 0 320px 0 120px;
@@ -103,9 +82,9 @@
 
 .box {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding-bottom: 94px;
+    margin-bottom: 74px;
     margin-top: 56px;
     position: relative;
 }
