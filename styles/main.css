@@ -2,6 +2,7 @@
 @import "./preview.css";
 @import "./header.css";
 @import "./feedback.css";
+@import "./beginning.css";
 
 * {
     margin: 0;
