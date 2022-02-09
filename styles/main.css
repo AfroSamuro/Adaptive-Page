@@ -3,6 +3,7 @@
 @import "./header.css";
 @import "./feedback.css";
 @import "./beginning.css";
+@import "./footer.css";
 
 * {
     margin: 0;
