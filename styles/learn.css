@@ -60,14 +60,14 @@
 
 @media screen and (max-width: 834px) {
     .learn {
-        padding-top: 70px;
+        padding-top: 84px;
     }
     .learn__img-people {
         width: 132px;
         height: 78px;
         margin-left: 164px;
         position: relative;
-        bottom: 30px;
+        top: 28px;
     }
 
     .learn__title-container {
@@ -75,11 +75,12 @@
         align-items: flex-start;
         flex-direction: column-reverse;
         position: relative;
+        /* top: 10px; */
     }
 
     .learn__content {
         display: block;
-        margin-top: 24px;
+        padding-top: 24px;
     }
 
     .learn__list-item {
@@ -93,5 +94,9 @@
         margin-top: 30px;
         margin-left: 60px;
         margin: 30px 0 0 60px;
+    }
+
+    .learn__title-container h2 {
+        margin-top: 36px;
     }
 }
