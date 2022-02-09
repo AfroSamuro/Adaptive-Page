@@ -40,6 +40,8 @@ h2 {
 @media screen and (max-width: 1280px) {
 
     .content {
+        margin: 0 auto;
+        width: 736px;
         padding-left: 30px;
         padding-right: 30px;
         width: 100%;
@@ -59,11 +61,14 @@ h2 {
 
 }
 
+
+
 @media screen and (max-width: 834px) {
 
     .content {
-        padding-left: 60px;
-        padding-right: 60px;
+        width: 308px;
+        padding-left: 32px;
+        padding-right: 32px;
         width: 100%;
     }
 
