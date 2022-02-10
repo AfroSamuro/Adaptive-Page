@@ -182,12 +182,17 @@
         position: relative;
     }
 
+    .list_item {
+        width: auto;
+    }
+
 
     .list_item_one {
         margin-left: 0px;
         padding-top: 0px;
         margin-bottom: 10px;
-        width: 100px;
+        /* width: 100px; */
+        margin-right: 26px;
     }
 
     .list_par {
@@ -200,7 +205,7 @@
     }    
 
     .list_item-text-one {
-        margin-right: 42px;
+        margin-right: 30px;
     }
 
     /* .list_item-text-two {

@@ -60,14 +60,14 @@
 
 @media screen and (max-width: 834px) {
     .learn {
-        padding-top: 84px;
+        padding-top: 0px;
     }
     .learn__img-people {
         width: 132px;
         height: 78px;
         margin-left: 164px;
-        position: relative;
-        top: 28px;
+        /* position: relative; */
+        /* top: 28px; */
     }
 
     .learn__title-container {

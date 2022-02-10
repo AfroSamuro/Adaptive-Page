@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     padding-right: 200px;
-    height: 76px;
+    /* height: 76px; */
 }
 
 .format__info {
