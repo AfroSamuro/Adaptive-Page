@@ -1,9 +1,11 @@
-
-
 .program-course {
    padding-left: 5px !important;
-   padding-right: 5px !important;
-   
+   padding-right: 5px !important; 
+}
+
+.program-course__section-title {
+    margin-bottom: 130px;
+    margin-left: 34px;
 }
 
 .program-course__black-line-separator {
@@ -13,40 +15,38 @@
     width: 47%;
 }
 
+/* .program-course__black-line-separator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 103px;
+    } */
 
 
-.program-course__section-title {
-    margin-bottom: 130px;
-    margin-left: 34px;
-}
 .program-course__programs {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
+.program-course__program:nth-last-of-type(3), .program-course__program:nth-last-of-type(6){
+    margin-right: 0;
+    }    
+
 .man-at-the-dask {
     position: absolute;
     right: 31px;
-    bottom: -130px;
+    bottom: -100px;
 }
 
 .program-course__program {
-    width: 31.2%;
+    width: 31.39%;
     background: #FFFFFF;
+    overflow: hidden;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     margin-right: 37px;
     margin-bottom: 41px;
 }
-
-.program-course__program:nth-last-of-type(3), .program-course__program:nth-last-of-type(6){
-margin-right: 0;
-}
-
-/* .program-course__program:nth-of-type(7), .program-course__program:nth-of-type(8) {
-margin-bottom: 0;
-} */
 
 
 .program-course__img-downpart {
@@ -56,9 +56,8 @@ margin-bottom: 0;
 
 .program-course__img {
     width: 100%;
+    display: block;
 }
-
-
 
 .program-course__title {
     font-size: 30px;
@@ -83,29 +82,23 @@ margin-bottom: 0;
 
 
 
-.program-course__black-line-separator {
-display: flex;
-justify-content: space-between;
-margin-bottom: 103px;
-}
+
+
+
 
 .authors {
-    padding-top: 288px;
-}
-
-.authors__real-man:last-child {
-    padding-right: 16px;
+    padding: 287px 64px 0 64px !important;
 }
 
 .authors__title {
     margin-bottom: 84px;
 }
-    
+
 .authors__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 38px;
+    margin-left: 34px;
 }
 
 .authors__real-man {
@@ -114,6 +107,19 @@ margin-bottom: 103px;
     position: relative;
 }
 
+.authors__real-man:not(:first-child) {
+    margin-top: 80px;
+}
+
+.authors__photo {
+    margin-right: 16px;
+    display: block;
+}
+
+.authors__info-about-host {
+    display: flex;
+    align-items: center;
+}
 
 
 .authors__real-name {
@@ -123,55 +129,6 @@ margin-bottom: 103px;
     font-weight: 700;
 }
 
-.authors__real-man-position {
-    font-size: 18px;
-}
-
-
-.authors__info-about-host {
-    display: flex;
-    align-items: center;
-}
-
-
-.authors__author-description-one {
-    width: 353px;
-    font-size: 18px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    padding: 31px 21px 17px 25px;
-    box-sizing: content-box;
-    position: absolute;
-    top: 178px;
-    left: 182px;
-    display: none;
-}
-
-
-.authors__author-description-two {
-    padding: 24px 20px 24px 25px;
-    width: 353px;
-    font-size: 18px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    box-sizing: content-box;
-    border-radius: 30px;
-    position: absolute;
-    bottom: 178px;
-    left: 180px; 
-    display: none;
-} 
-    
-.authors__real-man:not(:first-child) {
-    margin-top: 80px;
-}
-
-.authors__photo {
-    margin-right: 16px;
-}
-
-
 .authors__info-icon {
     background-image: url('../img/info-icon.svg');
     background-position: center;
@@ -180,6 +137,40 @@ margin-bottom: 103px;
     margin-left: 10px;
 }
 
+.authors__real-man-position {
+    font-size: 18px;
+}
+
+.authors__author-description-one {
+    /* width: 353px; */
+    font-size: 18px;
+    line-height: 23,4px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 25px 16px;
+    /* box-sizing: content-box; */
+    position: absolute;
+    top: 178px;
+    left: 182px;
+    display: none;
+}
+
+
+.authors__author-description-two {
+    padding: 24px 21px;
+    font-size: 18px;
+    line-height: 130%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    /* box-sizing: content-box; */
+    border-radius: 30px;
+    position: absolute;
+    bottom: 178px;
+    left: 180px; 
+    display: none;
+} 
+    
 .authors__author-education {
     margin-bottom: 10px;
 }
@@ -193,37 +184,39 @@ margin-bottom: 103px;
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
+    .content {
+        margin: 0 auto;
+    }
+
+    .program-course {
+        padding: 0 49px !important;
+    }
+
+    .program-course__section-title {
+        margin-bottom: 55px;
+        margin-left: 21px;
+    }
+
     .program-course__program {
         width: 31.4%;
+        overflow: hidden;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         margin-right: 21px;
-        margin-bottom: 23px;
+        margin-bottom: 26px;
     }
     
     .program-course__program:nth-last-of-type(3), .program-course__program:nth-last-of-type(6){
         margin-right: 0;
         }
 
-    .program-course__programs {
-        width: 736px;
-    }
-
-    .program-course__section-title {
-        margin-bottom: 55px;
-    }
-
     .program-course__black-line-separator {
         position: absolute;
         top: 20px;
         right: 0;
         width: 47%;
-    }
-
-    .content {
-        margin: 0 auto;
     }
 
     .program-course__title {
@@ -247,19 +240,23 @@ margin-bottom: 103px;
     .man-at-the-dask {
         max-width: 30%;
         position: absolute;
-        right: 31px;
-        bottom: -130px;
+        right: 18px;
+        bottom: -90px;
+    }
+
+    .authors {
+        padding-top: 161px 65px 0 65px !important;
     }
 
     .authors__title {
         font-size: 32px;
+        margin-bottom: 50px;
     }
 
     .authors__wrapper {
         margin-left: 41px;
-        /* width: 685px; */
         display: flex;
-        padding-left: 99px;
+        padding-left: 19px;
         margin: 0;
     }
 
@@ -267,8 +264,17 @@ margin-bottom: 103px;
         margin-right: 0;
     }
 
+    .authors__real-man:not(:first-child) {
+        margin-top: 45px;
+    }
+
     .authors__real-name {
         font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .authors__info-about-host {
+        margin-bottom: 10px;
     }
 
      .authors__real-man-position {
@@ -290,9 +296,14 @@ margin-bottom: 103px;
     }
 
     .authors__info-icon {
-        width: 16.22px;
-        height: 16.22px;    
+        background-image: url('../img/info-icon-tablet.svg');
+        background-position: center;
+        border-radius: 50%;
+        width: 19px;
+        height: 19px; 
+        margin-left: 5px;
     }
+    
     
 }
 
@@ -304,7 +315,6 @@ margin-bottom: 103px;
         width: 50%;
         margin-right: 0;
         margin-bottom: 40px;
-
     }
 
 
