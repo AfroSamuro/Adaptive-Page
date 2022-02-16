@@ -1,6 +1,6 @@
 .learn {
     padding-top: 134px;
-    padding-bottom: 60px;
+    padding-bottom: 248px;
 }
 
 .learn__title-container {
@@ -40,7 +40,7 @@
 
     .learn {
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 144px;
     }
 
     .learn__list {
@@ -63,7 +63,7 @@
 @media screen and (max-width: 834px) {
     .learn {
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     .learn__img-people {
         width: 132px;
