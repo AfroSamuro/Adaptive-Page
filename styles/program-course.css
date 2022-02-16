@@ -13,11 +13,10 @@
   top: 25px;
   right: 0;
   width: 47%;
+  height: 14px;
+  background-color: black;
 }
 
-.program-course__black-line-separator-mobile {
-  display: none;
-}
 
 .program-course__programs {
   display: flex;
@@ -213,9 +212,11 @@
 
   .program-course__black-line-separator {
     position: absolute;
-    top: 12px;
+    top: 16px;
     right: 0;
     width: 47%;
+    height: 8px;
+    background-color: black;
   }
 
   .program-course__title {
@@ -243,7 +244,7 @@
   }
 
   .authors {
-    padding: 161px 65px 0 65px !important;
+    padding: 196px 65px 0 65px !important;
   }
 
   .authors__title {
@@ -260,6 +261,7 @@
 
   .authors__real-man {
     margin-right: 0;
+    position: relative;
   }
 
   .authors__real-man:not(:first-child) {
@@ -281,7 +283,23 @@
 
   .authors__author-description {
     font-size: 10px;
+    width: 230px;
   }
+
+ .authors__author-description-one {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  padding: 18px 12px 10px 14px;
+ } 
+ 
+ .authors__author-description-two {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  padding: 14px 12px 14px 14px;
+ }
+ 
 
   .photo-left {
     width: 109.46px;
@@ -319,17 +337,6 @@
     padding-right: 34px !important;
   }
 
-  .program-course__black-line-separator {
-    display: none;
-  }
-
-  .program-course__black-line-separator-mobile {
-    display: block;
-    position: absolute;
-    top: 12px;
-    right: 0;
-  }
-
   .program-course__section-title {
       font-size: 26px;
       font-weight: 700;
@@ -337,6 +344,15 @@
       margin-bottom: 35px;
   }
   
+  .program-course__black-line-separator {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  width: 25%;
+  height: 6px;
+  background-color: black;
+  }
+
   .program-course__programs {
     padding: 0 61px !important;
   }
