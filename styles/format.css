@@ -44,7 +44,14 @@
 
     .format__info {
         width: 160px;
+    }
 
+    /* .format__info-one {
+        margin-right: 20px;
+    } */
+    
+    .format__info-three {
+        margin-right: 10px;
     }
 
     .format__info-paragraph {
