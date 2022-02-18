@@ -21,6 +21,7 @@
 
 .preview__paragraph {
     display: flex;
+    justify-content: space-between;
 }
 
 .paragraph {
@@ -34,7 +35,7 @@
 
 .preview__paragraph-img {
     margin-right: 120px;
-    /* margin-bottom: 25px; */
+    margin-bottom: 12px;
 }
 
 .preview__quote {
@@ -66,7 +67,7 @@
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .preview {
         padding-top: 50px;
     }
@@ -107,10 +108,11 @@
 
     .preview__quote {
         margin-top: 34px;
-        margin-left: 164px;
+        margin-left: 25%;
         padding: 10px 0px 5px 15px;
         width: 280px;
         height: 116px;
+
     }
 
     .preview__quote-text {
@@ -147,7 +149,8 @@
         width: 142px;
         height: 176px;
         margin-right: 0;
-        margin-left: 166px;
+        /* margin-left: 166px; */
+        /* float: right; */
     }
 
     .preview__paragraph p {
@@ -158,13 +161,15 @@
     }
 
     .preview__paragraph {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         
     }
 
     .preview__quote {
         margin-top: 30px;
-        margin-left: 4px;
+        margin-left: 15%;
         padding: 10px 0px 0px 15px;
         width: 230px;
         height: 106px;
@@ -180,5 +185,12 @@
         line-height: 130%;
         margin-right: 16px;
         margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .preview__paragraph-img {
+         margin-left: 60%;
+         margin-top: 10px;
     }
 }
