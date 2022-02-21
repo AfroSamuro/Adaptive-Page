@@ -1,6 +1,5 @@
 .program-course {
-  padding-left: 5px !important;
-  padding-right: 5px !important;
+  position: relative;
 }
 
 .program-course__section-title {
@@ -16,8 +15,8 @@
 .program-course__black-line-separator {
   position: absolute;
   top: 13px;
-  right: -80px;
-  width: 47%;
+  right: 0;
+  width: 35%;
   height: 14px;
   background-color: black;
 }
@@ -41,7 +40,7 @@
 }
 
 .program-course__program {
-  width: 31.3%;
+  width: 31.2%;
   background: #ffffff;
   overflow: hidden;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -191,9 +190,9 @@
     margin: 0 auto;
   }
 
-  .program-course {
+  /* .program-course {
     padding: 0 49px !important;
-  }
+  } */
 
   .program-course__section-title {
     margin-bottom: 55px;
@@ -222,8 +221,6 @@
   .program-course__black-line-separator {
     position: absolute;
     top: 13px;
-    right: -50px;
-    width: 47%;
     height: 8px;
     background-color: black;
   }
@@ -341,10 +338,10 @@
 
 
 @media screen and (max-width: 833px) {
-  .program-course {
+  /* .program-course {
     padding-left: 34px !important;
     padding-right: 34px !important;
-  }
+  } */
 
   .program-course__section-title {
       font-size: 26px;
@@ -360,8 +357,7 @@
   .program-course__black-line-separator {
   position: absolute;
   top: 13px;
-  right: -34px;
-  width: 25%;
+  width: 20%;
   height: 6px;
   background-color: black;
   }
